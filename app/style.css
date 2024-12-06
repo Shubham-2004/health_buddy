@@ -97,7 +97,8 @@ input:not(:placeholder-shown)~label {
 }
 
 .recover a:hover {
-    color: #FF6F00; /* Hover effect in orange */
+    background-color: #FF6F00; /* Hover effect in orange */
+    color: black;
     text-decoration: underline;
 }
 
@@ -114,9 +115,7 @@ input:not(:placeholder-shown)~label {
     transition: 0.4s;
 }
 
-.btn:hover {
-    background: #FF6F00; /* Orange hover for button */
-}
+
 
 .or {
     font-size: 1.2rem;
